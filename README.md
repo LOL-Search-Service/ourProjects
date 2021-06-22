@@ -9,5 +9,4 @@ LOL Search Service
 
 ```
 addEventLisner()
-
 ```
