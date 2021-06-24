@@ -1,10 +1,9 @@
 # LoL Search Service Project
 
+
 ## 프로젝트 목적
->saskdaskjdasdjkasd
->askdjaksjdkasdjasdj
->askdjkasdjklaskdjaskd
->kasjdkajsdkasjdkasjdk
+> 안녕하세요
+
 
 
 
