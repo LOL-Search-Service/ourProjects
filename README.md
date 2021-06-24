@@ -1,4 +1,4 @@
-# LoL Search Service Project
+LoL Search Service Project
 =============
 
 
