@@ -1,0 +1,85 @@
+<에로사항 developer Discord에 요청>
+-https://discord.com/invite/riotgamesdevrel
+
+1. 롤 api 가입( 사용중인 lol id로 접근 가능)
+- account 개설
+
+2. api사용을 원하는 웹사이트 api_key 요청 ( 웹사이트 형태에 따라서 허가 불가 가능)
+- 제품 등록 과정
+
+3. 라우팅 값 ( platform id && location  value)
+- ex) nal americas
+- asia  라우팅값 asia.api.riotgames.com
+
+4. 게임 상수 
+- ex)
+계절
+시즌 ID는 경기 기록에서 경기가 진행된 시즌을 나타내는 데 사용됩니다. 시즌 ID의 전체 목록은 아래 파일에서 찾을 수 있습니다.
+
+seasons.json
+
+[
+  {
+    "id": 0,
+    "season": "PRESEASON 3"
+  },
+  ...
+]
+대기열 ID
+대기열 ID는 API 전체에서 여러 위치에 표시되며 어떤 종류의 경기가 재생되었는지 나타내는 데 사용됩니다. 큐 ID의 전체 목록은 아래 파일에서 찾을 수 있습니다.
+
+queues.json
+
+[
+  {
+    "queueId": 0,
+    "map": "Custom games",
+    "description": null,
+    "notes": null
+  },
+  ...
+]
+지도
+맵 ID는 매치 이력에서 매치가 플레이 된 맵을 나타내는 데 사용됩니다. 지도 ID의 전체 목록은 아래 파일에서 찾을 수 있습니다.
+
+maps.json
+
+[
+  {
+    "mapId": 1,
+    "mapName": "Summoner's Rift",
+    "notes": "Original Summer variant"
+  },
+  ...
+]
+게임 모드
+게임 모드의 전체 목록은 아래 파일에서 찾을 수 있습니다.
+
+gameModes.json
+
+[
+  {
+    "gameMode": "CLASSIC",
+    "description": "Classic Summoner's Rift and Twisted Treeline games"
+  },
+  ...
+]
+
+etc........................................................................................................................................................................................................................................
+point(계절, 대기열 id, 지도, 게임 모드, 게임 유형, **순위 정보**, 
+
+
+5) data dragon - 챔피언, 아이템, 룬, 소환사 주문 및 프로필 아이콘을 포함한 리그 오브 레전드 게임 데이터 및 자산을 중앙 집중화하는 방법
+ex) 버전, 지역 , 데이터 및 자산 , **챔피언**, **아이템**,  etc...
+
+6) 토너먼트 api
+League of Legends는 사용자 지정 게임 로비를 활용하여 플레이어를위한 토너먼트를 구축하려는 개발자를 지원합니다. 사용자 지정 게임은 미리 설정된 게임 설정 ( 지도, 선택 유형 등 )을 사용 하여 플레이어를 개인 사용자 지정 게임 로비로 쉽고 빠르게 이동할 수 있도록 도와주는 토너먼트 코드 를 활용할 수 있습니다 . 
+
+??????
+
+7) 라이브 클라이언트 데이터 API
+
+8) 재생 API
+
+
+
