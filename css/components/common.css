@@ -4,18 +4,25 @@ body {
 
 .search-form {
     display: flex;
+    padding: 2rem 0;
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: #30a9de;
+    /* background-color: #30a9de; */
+    /* background: linear-gradient(to right, #2b5876, #4e4376); */
+    /* background: linear-gradient(to right, #373b44, #4286f4); */
+    background: linear-gradient(to right, #2980b9, #6dd5fa);
+
     justify-content: center;
     align-items: center;
 }
 
 .main-logo {
     margin-right: 1.5rem;
-    width: 10rem;
-    height: 7rem;
+    width: 70px;
+    height: 70px;
+    /* width: 10rem; */
+    /* height: 7rem; */
 }
 
 .search-input {
@@ -33,7 +40,7 @@ body {
 .nav {
     display: flex;
     position: fixed;
-    top: 7rem;
+    top: 11rem;
     width: 100%;
     background-color: #2a5e6e;
     justify-content: center;
@@ -80,30 +87,6 @@ body {
     align-items: center;
 }
 
-.home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 35rem;
-    right: 0;
-    width: 70%;
-    /* border: 1px solid black; */
-    /* height: 100%; */
-    margin-top: 15rem;
-}
-
-.home-contents {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-}
-
-.content {
-    margin-bottom: 1rem;
-    border: 1px solid black;
-    height: 100%;
-}
-
 footer {
     display: flex;
     /* width: 100%; */
@@ -129,9 +112,4 @@ footer p {
     justify-content: center;
     margin-left: 40rem;
     opacity: 0.5;
-}
-
-.test {
-    display: flex;
-    margin-left: -4rem;
 }

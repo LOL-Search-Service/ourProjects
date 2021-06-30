@@ -1,2 +1,8 @@
-@import "components/reset.css";
+@import "reset.css";
+@import "variable.css";
+
+/*  user components */
 @import "components/common.css";
+
+/*  main screen */
+@import "screen/home.css";

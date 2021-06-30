@@ -1,0 +1,42 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35rem;
+    right: 0;
+    width: 70%;
+    /* border: 1px solid black; */
+    /* height: 100%; */
+    margin-top: 19rem;
+}
+
+.home-contents {
+    width: 90%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.test {
+    display: flex;
+    margin-left: -4rem;
+}
+
+.home .content-title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1.5rem;
+    width: 30%;
+    background-color: royalblue;
+    color: white;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
