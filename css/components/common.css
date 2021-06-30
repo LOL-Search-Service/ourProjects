@@ -2,50 +2,93 @@ body {
     height: 120vh;
 }
 
-img {
+.main-img {
     width: 100%;
+    height: 15%;
 }
 
 .search-form {
     display: flex;
+    background-color: #30a9de;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
 }
 
-.nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1.5rem;
+.main-logo {
+    margin-right: 1.5rem;
+    width: 10rem;
+    height: 7rem;
 }
 
-.nav__list {
+.search-input {
+    width: 20%;
+    height: 3rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.login-btn {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    background-color: #2a5e6e;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 1.5rem; */
+    padding: 1rem 0;
+}
+
+.nav-list {
     display: flex;
     width: 50%;
     height: 100%;
+    margin-bottom: 0px;
 }
 
-.nav li {
-    border: 1px solid black;
+.nav-btn {
     width: 100%;
-    height: 20px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: gray;
 }
 
 .login-form {
+    border: 1px solid rgb(241, 241, 241);
+    padding: 1rem;
     position: fixed;
-    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgb(241, 241, 241);
     left: 10rem;
+}
+
+.login-option {
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .home {
     display: flex;
-    margin-left: 30rem;
+    margin-left: 32rem;
     right: 0;
     /* width: 70%; */
     height: 100rem;
     /* height: 100%; */
-    margin-top: 1.5rem;
+    margin-top: 10rem;
 }
 
 .home-contents {
@@ -61,7 +104,30 @@ img {
 }
 
 footer {
-    height: 100px;
+    display: flex;
     width: 100%;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 100px;
     border-top: 1px solid black;
+    background-color: gray;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li {
+    margin-right: 1rem;
+}
+
+footer p {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin-left: 40rem;
+    opacity: 0.5;
 }
