@@ -1,46 +1,41 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  /* Add padding to containers */
-  .container {
+/* Add padding to containers */
+.container {
+    margin-top: 20rem;
     padding: 16px;
     background-color: white;
-  }
-  
-  /* Full-width input fields */
-  #user_id,  #pwd,  #pwd-repeat {
+}
+
+/* Full-width input fields */
+#user_id,
+#pwd,
+#pwd-repeat {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: solid 1px #ddd;
     background: #f1f1f1;
-  }
-  
- #user_id:disabled{
-    background-color: #ddd;
-  }
+}
 
-  #pwd:focus, #pwd-repeat:focus {
+#user_id:disabled {
+    background-color: #ddd;
+}
+
+#pwd:focus,
+#pwd-repeat:focus {
     background-color: #ddd;
     outline: none;
-  }
-  
-  /* Overwrite default styles of hr */
-  hr {
+}
+
+/* Overwrite default styles of hr */
+hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
-  }
-  
-  /* Set a style for the submit button */
-  .registerbtn {
-    background-color: #04AA6D;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #04aa6d;
     color: white;
     padding: 16px 20px;
     margin: 8px 0;
@@ -48,32 +43,36 @@ body {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
-  }
-  
-  .registerbtn:hover {
+}
+
+.registerbtn:hover {
     opacity: 1;
-  }
-  
-  /* Add a blue text color to links */
-  a {
+}
+
+/* Add a blue text color to links */
+a {
     color: dodgerblue;
-  }
-  
-  /* Set a grey background color and center the text of the "sign in" section */
-  .signin {
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
     background-color: #f1f1f1;
     text-align: center;
-  }
+}
 
-  /* 아이디 중복확인 버튼*/
-  /* Set a style for the submit button */
-  .idcheckbtn {
-    background-color: #04AA6D;
+/* 아이디 중복확인 버튼*/
+/* Set a style for the submit button */
+.idcheckbtn {
+    background-color: #04aa6d;
     color: white;
     padding: 5px 5px;
     margin-left: 15px;
     border: none;
     cursor: pointer;
-    width:15%;
+    width: 15%;
     opacity: 0.9;
-  }
+}
+
+.popup {
+    margin: 0;
+}

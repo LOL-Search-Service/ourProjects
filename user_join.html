@@ -9,7 +9,7 @@
         <!-------------------------link --------------------------->
 
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/screen/user_join.css" />
+
         <!-- 부트스트랩 -->
         <!-- <link href="css/bootstrap.min.css" rel="stylesheet" /> -->
         <!-- 합쳐지고 최소화된 최신 CSS -->
@@ -85,68 +85,63 @@
             </ul>
         </nav>
 
-        <div class="wrapper">
-            <!-- <form class="login-form">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">아이디</label>
-                    <input
-                        type="text"
-                        class="form-control"
-                        id="exampleInputEmail1"
-                        required
+        <main class="account">
+            <!---------------최준혁 추가부분--------------->
+            <form action="/action_page.php">
+                <div class="container">
+                    <h1>회원가입</h1>
+                    <p></p>
+                    <hr />
+
+                    <label for="user_id"><b>아이디</b></label
+                    ><input
+                        type="button"
+                        class="idcheckbtn"
+                        value="중복검사"
+                        onclick="fn_openIdDPCN()"
                     />
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">비밀번호</label>
+                    <input type="text" id="user_id" placeholder="" disabled />
+
+                    <label for="psw"><b>비밀번호</b></label>
                     <input
                         type="password"
-                        class="form-control"
-                        id="exampleInputPassword1"
-                        required
+                        placeholder="비밀번호는 6자리 이상이여야 하며 영문과 숫자를 반드시 포함해야 합니다."
+                        name="psw"
+                        id="pwd"
                     />
+
+                    <label for="psw-repeat"><b>비밀번호 확인</b></label>
+                    <input
+                        type="password"
+                        placeholder=""
+                        name="psw-repeat"
+                        id="pwd-repeat"
+                    />
+                    <hr />
+                    <p>
+                        By creating an account you agree to our
+                        <a href="#">Terms & Privacy</a>.
+                    </p>
+
+                    <button
+                        type="button"
+                        class="registerbtn"
+                        onclick="location.href='index.html'"
+                    >
+                        가입하기
+                    </button>
                 </div>
 
-                <button type="submit" class="login-btn btn btn-default">
-                    Log In
-                </button>
-                <div class="login-option">
-                    <a href="#">회원가입</a>
-                    <a href="#">Id/Pass찾기</a>
+                <div class="container signin">
+                    <p>Already have an account? <a href="#">Sign in</a>.</p>
                 </div>
-            </form> -->
-            <main class="home">
-                
-                <!---------------최준혁 추가부분--------------->
-                <form action="/action_page.php">
-                    <div class="container">
-                      <h1>회원가입</h1>
-                      <p></p>
-                      <hr>
-                  
-                      <label for="user_id"><b>아이디</b></label><input type="button" class="idcheckbtn" value="중복검사" onclick="fn_openIdDPCN()">
-                      <input type="text" id="user_id" placeholder="" disabled >
-                  
-                      <label for="psw"><b>비밀번호</b></label>
-                      <input type="password" placeholder="비밀번호는 6자리 이상이여야 하며 영문과 숫자를 반드시 포함해야 합니다." name="psw" id="pwd" >
-                  
-                      <label for="psw-repeat"><b>비밀번호 확인</b></label>
-                      <input type="password" placeholder="" name="psw-repeat" id="pwd-repeat" >
-                      <hr>
-                      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-                  
-                      <button type="button" class="registerbtn" onclick="location.href='index.html'">가입하기</button>
-                    </div>
-                    
-                    <div class="container signin">
-                      <p>Already have an account? <a href="#">Sign in</a>.</p>
-                    </div>
-                  </form>
-                  <!---------------최준혁 추가부분--------------->
+            </form>
+            <!---------------최준혁 추가부분--------------->
 
-                <!-- <div class="content"></div>
+            <!-- <div class="content"></div>
             <div class="content"></div> -->
-            </main>
-        </div>
+        </main>
+        <!-- </div> -->
         <footer>
             <ul>
                 <li>oursite.com</li>
@@ -172,10 +167,10 @@
         </div>
     </body>
     <script>
-        function fn_openIdDPCN(){
-            var url = "id_dpcn_popup.html";
-            var name = "아이디 중복확인";
-            var option = "width=500, height= 200, top= 300, left = 300";
+        function fn_openIdDPCN() {
+            const url = "id_dpcn_popup.html";
+            const name = "아이디 중복확인";
+            const option = "width=500, height= 200, top= 300, left = 300";
             open(url, name, option);
         }
     </script>
