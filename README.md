@@ -10,12 +10,12 @@ LoL Search Service Project
 > 각 웹사이트의 장점만을 살릴 FISM.kr(Fast Interactive Search Mmr) 서비스를 제공 할 것이다.
 
 ## 사용 기술
-*Front-End
+Front-End
   - HTML,CSS
   - JAVASCRIPT
   - BOOTSTRAP
 
-*Back-End
+Back-End
   - JAVA
   - MYSQL
 
