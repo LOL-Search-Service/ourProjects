@@ -4,25 +4,20 @@ body {
 
 .search-form {
     display: flex;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     position: fixed;
     width: 100%;
     top: 0;
-    /* background-color: #30a9de; */
-    /* background: linear-gradient(to right, #2b5876, #4e4376); */
-    /* background: linear-gradient(to right, #373b44, #4286f4); */
-    background: linear-gradient(to right, #2980b9, #6dd5fa);
-
+    background-color: #eeeeee;
     justify-content: center;
     align-items: center;
 }
-
 .main-logo {
+    font-family: "Lobster", cursive;
+    font-size: 4rem;
     margin-right: 1.5rem;
-    width: 70px;
-    height: 70px;
-    /* width: 10rem; */
-    /* height: 7rem; */
+    color: #cfb26a;
+    text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -2px black;
 }
 
 .search-input {
@@ -31,6 +26,7 @@ body {
     margin-right: 1rem;
     border-radius: 5px;
     border: none;
+    padding: 1rem;
 }
 
 .login-btn {
@@ -40,7 +36,7 @@ body {
 .nav {
     display: flex;
     position: fixed;
-    top: 11rem;
+    top: 8rem;
     width: 100%;
     background-color: #2a5e6e;
     justify-content: center;
@@ -64,11 +60,13 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
 .nav-link:hover {
     color: gray;
+    text-decoration: none;
 }
 
 .login-form {
@@ -78,6 +76,8 @@ body {
     border-radius: 1rem;
     background-color: rgb(241, 241, 241);
     left: 10rem;
+    top: 25rem;
+    box-shadow: 2px 2px 2px black;
 }
 
 .login-option {
@@ -89,10 +89,9 @@ body {
 
 footer {
     display: flex;
-    /* width: 100%; */
     margin-top: 3rem;
     padding-top: 1rem;
-    border-top: 1px solid black;
+
     background-color: gray;
 }
 
@@ -112,4 +111,11 @@ footer p {
     justify-content: center;
     margin-left: 40rem;
     opacity: 0.5;
+}
+
+.dm {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    /* color: #fae100; */
 }
