@@ -1,3 +1,7 @@
+
+
+/* ---------------------------------common content css----------------------------------- */
+
 .home {
     display: flex;
     justify-content: center;
@@ -19,19 +23,11 @@
     align-items: center;
     margin-bottom: 5rem;
     padding: 1rem;
-    /* border: 1px solid black; */
     border-radius: 1rem;
     height: 100%;
-    /* box-shadow: 3px 3px 3px black; */
-    /* background-color: #eeeeee; */
     background-image: url("sky-828648_1920.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.test {
-    display: flex;
-    margin-left: -4rem;
 }
 
 .home .content-title {
@@ -48,12 +44,12 @@
     box-shadow: 2px 2px 2px black;
 }
 
+/* ---------------------------------lotation,sales content css----------------------------------- */
+
 .lotation-list,
 .skinsale-list {
     padding: 1.5rem;
     width: 100%;
-
-    /* border: 1px solid red; */
 }
 
 .lotation-list__row,
@@ -62,28 +58,17 @@
     justify-content: start;
     width: 100%;
     padding: 1rem;
-    /* border: 1px solid red; */
 }
 
-.lotation-list__row li {
+.lotation-list__row li,
+.skinsale-list__row li {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
-    border: 1px solid white;
-    /* border: 1px solid green; */
     padding: 1rem;
-}
-
-.lotation-list span {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    color: white;
-    top: 70%;
-    left: 30%;
 }
 
 .lotation-list__row li img,
@@ -101,21 +86,48 @@
     align-items: flex-start;
 }
 
-.skinsale-list span {
-    color: white;
+.skinsale-list__row li {
+    flex-direction: column;
+    position: none;
 }
 
-.skinsale-list__row li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.lotation-list span {
+    position: absolute;
     width: 100%;
     height: 100%;
-    border: 1px solid white;
-    padding: 1rem;
+    color: white;
+    top: 70%;
+    left: 30%;
+}
+
+.skinsale-list span {
+    color: white;
 }
 
 .champ-price {
     font-size: 1.2rem;
 }
+
+/*  확장 li를 제외한 요소 border */
+.skinsale-list__row li:not(.for-extension),
+.lotation-list__row li:not(.for-extension) {
+    border: 1px solid white;
+}
+
+/* -----------------------------------notice-board ------------------------------------------ */
+
+.notice-board {
+    display: flex;
+    border: 1px solid red;
+    /* margin-left: -4rem; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notice-board .content {
+    border: 3px solid green;
+}
+
+.notice-board img {
+    width: 45rem;
+    height: 45rem;
