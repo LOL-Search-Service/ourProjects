@@ -124,3 +124,46 @@ footer p {
     bottom: 3rem;
     /* color: #fae100; */
 }
+
+.icon-list {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.icon-list li {
+    display: inline;
+}
+
+.icon-list i {
+    font-size: 2.7rem;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.icon-list i:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.icon-list a:nth-child(1) i {
+    color: black;
+}
+
+.fa-app-store-ios {
+    color: tomato;
+}
+
+.fa-pinterest-square {
+    color: green;
+}
+
+.fa-instagram-square {
+    background: -webkit-linear-gradient(#fbcd6f, #de026e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-list .list-row:last-child {
+    margin-top: 0.5rem;
+}
