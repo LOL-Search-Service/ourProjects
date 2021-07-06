@@ -1,5 +1,3 @@
-
-
 /* ---------------------------------common content css----------------------------------- */
 
 .home {
@@ -115,19 +113,3 @@
 }
 
 /* -----------------------------------notice-board ------------------------------------------ */
-
-.notice-board {
-    display: flex;
-    border: 1px solid red;
-    /* margin-left: -4rem; */
-    justify-content: space-between;
-    align-items: center;
-}
-
-.notice-board .content {
-    border: 3px solid green;
-}
-
-.notice-board img {
-    width: 45rem;
-    height: 45rem;
