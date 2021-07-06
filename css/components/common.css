@@ -92,6 +92,10 @@ body {
     align-items: center;
 }
 
+.login-option a {
+    font-size : 1rem;
+}
+
 footer {
     display: flex;
     margin-top: 3rem;
