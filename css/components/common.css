@@ -80,9 +80,9 @@ body {
     position: fixed;
     border-radius: 1rem;
     background-color: rgb(241, 241, 241);
-    left: 10rem;
-    top: 25rem;
-    box-shadow: 2px 2px 2px black;
+    left: 7rem;
+    top: 29rem;
+    box-shadow: 1px 1px 1px black;
 }
 
 .login-option {
