@@ -1,7 +1,7 @@
 body {
     height: 120vh;
 }
-
+/* ------------------------------ 소환사 검색 form ------------------------------ */
 .search-form {
     display: flex;
     padding: 1.5rem 0;
@@ -29,101 +29,7 @@ body {
     padding: 1rem;
 }
 
-.login-btn {
-    width: 100%;
-}
-
-.nav {
-    display: flex;
-    position: fixed;
-    top: 8rem;
-    width: 100%;
-    background-color: #2a5e6e;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
-}
-
-.nav,
-.search-form {
-    z-index: 1;
-}
-
-.nav-list {
-    display: flex;
-    width: 50%;
-    /* height: 100%; */
-    margin-bottom: 0px;
-}
-
-.nav-btn {
-    width: 100%;
-}
-
-.nav-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 1.5rem;
-    text-decoration: none;
-}
-
-.nav-link:hover {
-    color: gray;
-    text-decoration: none;
-}
-
-.login-form {
-    border: 1px solid rgb(241, 241, 241);
-    padding: 1rem;
-    position: fixed;
-    border-radius: 1rem;
-    background-color: rgb(241, 241, 241);
-    left: 7rem;
-    top: 29rem;
-    box-shadow: 1px 1px 1px black;
-}
-
-.login-option {
-    display: flex;
-    margin-top: 1.5rem;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer {
-    display: flex;
-    margin-top: 3rem;
-    padding-top: 1rem;
-
-    background-color: gray;
-}
-
-footer ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer ul li {
-    margin-right: 1rem;
-}
-
-footer p {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    margin-left: 40rem;
-    opacity: 0.5;
-}
-
-.dm {
-    position: fixed;
-    right: 3rem;
-    bottom: 3rem;
-    /* color: #fae100; */
-}
+/* form 좌측 상단 icons */
 
 .icon-list {
     position: absolute;
@@ -166,4 +72,153 @@ footer p {
 
 .icon-list .list-row:last-child {
     margin-top: 0.5rem;
+}
+
+/* ------------------------------ menu-bar ------------------------------ */
+.nav {
+    display: flex;
+    position: fixed;
+    top: 8rem;
+    width: 100%;
+    background-color: #2a5e6e;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.nav,
+.search-form {
+    z-index: 1;
+}
+
+.nav-list {
+    display: flex;
+    width: 50%;
+    /* height: 100%; */
+    margin-bottom: 0px;
+}
+
+.nav-btn {
+    width: 100%;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+/* ------------------------------ login-form ------------------------------ */
+
+.login-form {
+    /* border: 1px solid rgb(241, 241, 241); */
+
+    padding: 1rem;
+    position: fixed;
+    border-radius: 1rem;
+    background-color: rgba(051, 051, 102);
+    /* background-color: black; */
+    background: linear-gradient(70deg, rgba(051, 051, 102), black);
+    left: 7rem;
+    top: 29rem;
+    box-shadow: 3px 3px 3px black;
+}
+
+.login-header {
+    margin-top: 1rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 0.2rem outset rgb(128, 127, 127);
+    border-radius: 500% / 50%;
+    color: white;
+    font-weight: bold;
+}
+
+.login-option {
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-form label {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.input-id,
+.input-pw {
+    height: 2.5rem !important;
+    border-radius: 0.1 !important;
+}
+
+.login-option a {
+    font-size: 1rem;
+}
+
+.login-btn {
+    font-size: 1rem !important;
+    margin-left: 30%;
+    width: 33%;
+}
+
+.login-rem-box {
+    display: flex;
+}
+
+.login-id-rem {
+    display: inline;
+}
+
+.login-id-rem-text {
+    margin: 0;
+    margin-left: 0.3rem;
+    padding-top: 0.3rem;
+    font-size: 1rem;
+    color: white;
+}
+
+/* ------------------------------ footer ------------------------------ */
+
+footer {
+    display: flex;
+    margin-top: 3rem;
+    padding-top: 1rem;
+
+    background-color: gray;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li {
+    margin-right: 1rem;
+}
+
+footer p {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin-left: 40rem;
+    opacity: 0.5;
+}
+
+/* ------------------------------ dm ------------------------------ */
+
+.dm {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    /* color: #fae100; */
 }
