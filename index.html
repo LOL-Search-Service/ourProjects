@@ -111,17 +111,18 @@
                     <a class="nav-link" href="index.html">고객센터</a>
                 </li>
                 <li class="nav-btn">
-                    <a class="nav-link" href="index.html">확장</a>
+                    <a class="nav-link nav-link-end" href="index.html">확장</a>
                 </li>
             </ul>
         </nav>
 
         <form class="login-form">
+            <p class="login-header">계정 로그인</p>
             <div class="form-group">
                 <label for="exampleInputEmail1">아이디</label>
                 <input
                     type="text"
-                    class="form-control"
+                    class="form-control input-id"
                     id="exampleInputEmail1"
                     required
                 />
@@ -130,15 +131,18 @@
                 <label for="exampleInputPassword1">비밀번호</label>
                 <input
                     type="password"
-                    class="form-control"
+                    class="form-control input-pw"
                     id="exampleInputPassword1"
                     required
                 />
             </div>
-
-            <button type="submit" class="login-btn btn btn-default">
-                로그인
-            </button>
+            <div class="login-rem-box">
+                <input type="checkbox" class="login-id-rem"><p class="login-id-rem-text">아이디 저장</p>
+                <button type="submit" class="login-btn btn btn-default">
+                    로그인
+                </button>
+            </div>
+            
             <div class="login-option">
                 <a href="user_join.html">회원가입</a>
                 <a href="#">아이디/비밀번호찾기</a>
