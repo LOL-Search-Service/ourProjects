@@ -29,10 +29,6 @@ body {
     padding: 1rem;
 }
 
-.login-btn {
-    width: 100%;
-}
-
 .nav {
     display: flex;
     position: fixed;
@@ -61,12 +57,17 @@ body {
 }
 
 .nav-link {
+    border-left: 0.3rem outset rgb(54, 54, 54);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 1.5rem;
     text-decoration: none;
+}
+
+.nav-link-end{
+    border-right: 0.3rem outset rgb(136, 136, 136);
 }
 
 .nav-link:hover {
@@ -78,11 +79,33 @@ body {
     border: 1px solid rgb(241, 241, 241);
     padding: 1rem;
     position: fixed;
-    border-radius: 1rem;
-    background-color: rgb(241, 241, 241);
+    /* border-radius: 1rem; */
+    background-color: rgba(051, 051, 102);
     left: 10rem;
     top: 25rem;
     box-shadow: 2px 2px 2px black;
+
+}
+
+.login-header{
+    margin-top: 1rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 0.2rem outset rgb(128, 127, 127);
+    border-radius: 500% / 50%;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.login-form label{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.input-id, .input-pw{
+    height: 2.5rem !important;
+    border-radius: 0.1!important;
 }
 
 .login-option {
@@ -91,6 +114,33 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
+.login-option a {
+    font-size : 1rem;
+}
+
+.login-btn {
+    font-size: 1rem !important;
+    margin-left: 30%;
+    /* width: 30%; */
+}
+
+.login-rem-box{
+    display: flex;
+}
+
+.login-id-rem{
+    display: inline;
+}
+
+.login-id-rem-text{
+    margin: 0;
+    margin-left: 0.3rem;
+    padding-top: 0.3rem;
+    font-size: 1rem;
+    color: white;
+}
+
 
 footer {
     display: flex;
