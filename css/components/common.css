@@ -103,12 +103,17 @@ body {
 }
 
 .nav-link {
+    border-left: 0.3rem outset rgb(54, 54, 54);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 1.5rem;
     text-decoration: none;
+}
+
+.nav-link-end {
+    border-right: 0.3rem outset rgb(136, 136, 136);
 }
 
 .nav-link:hover {

@@ -194,12 +194,10 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
-
 .center-bottom div {
     padding-left: 0.5rem;
     padding-top: 1rem;
 }
-
 .board-more {
     display: flex;
     justify-content: flex-end;
