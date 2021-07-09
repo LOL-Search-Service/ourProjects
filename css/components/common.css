@@ -227,3 +227,24 @@ footer p {
     bottom: 3rem;
     /* color: #fae100; */
 }
+
+/* ------------------------------ common media-query ------------------------------ */
+
+@media screen and (max-width: 645px) {
+    .login-form {
+        display: none;
+    }
+
+    .icon-list {
+        display: none;
+    }
+    .search-input {
+        width: 40%;
+    }
+    .nav-list {
+        width: 90%;
+    }
+    .nav-list a {
+        font-size: 1.4rem;
+    }
+}

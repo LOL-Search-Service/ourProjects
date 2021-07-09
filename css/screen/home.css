@@ -224,3 +224,35 @@
 
     border-radius: 3rem;
 }
+
+/*  ------------------------------------ home-media-query */
+
+@media screen and (max-width: 645px) {
+    .home {
+        margin-left: 1rem;
+        width: 100%;
+    }
+    .adver-img {
+        display: none;
+    }
+
+    .lotation-list__row {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .lotation-list__row li {
+        width: 30%;
+        /* height: 20%; */
+    }
+
+    .skinsale-list__row {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .skinsale-list__row li {
+        width: 30%;
+        /* height: 20%; */
+    }
+}
