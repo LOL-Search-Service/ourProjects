@@ -35,7 +35,7 @@ hr {
 
 /* Set a style for the submit button */
 .registerbtn {
-    background-color: #04aa6d;
+    background-color: #2f2f2f;
     color: white;
     padding: 16px 20px;
     margin: 8px 0;
@@ -63,7 +63,7 @@ a {
 /* 아이디 중복확인 버튼*/
 /* Set a style for the submit button */
 .idcheckbtn {
-    background-color: #04aa6d;
+    background-color: #2f2f2f;
     color: white;
     padding: 5px 5px;
     margin-left: 15px;
