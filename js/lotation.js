@@ -1,4 +1,7 @@
-const API_KEY = "RGAPI-bf3df75c-d70b-4666-8ab1-d4bfdadbf95c";
+import process from "dotenv";
+
+const API_KEY = process.env.API_KEY;
+console.log(API_KEY);
 
 const ROTATION_URL = `https://kr.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=${API_KEY}`;
 const CHAMPION_URL =
