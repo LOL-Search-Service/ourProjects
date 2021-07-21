@@ -195,15 +195,18 @@ body {
 
 footer {
     display: flex;
+    display: none;
     margin-top: 3rem;
     padding-top: 1rem;
 
+    width: 100%;
     background-color: gray;
 }
 
 footer ul {
     display: flex;
     justify-content: center;
+
     align-items: center;
 }
 
@@ -213,9 +216,9 @@ footer ul li {
 
 footer p {
     display: flex;
-    width: 50%;
+    width: 100%;
     justify-content: center;
-    margin-left: 40rem;
+    text-align: center;
     opacity: 0.5;
 }
 
